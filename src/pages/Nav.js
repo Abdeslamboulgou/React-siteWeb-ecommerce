@@ -3,8 +3,8 @@ import CartContenu from '../contenu/Cart/CartContenu';
 import '../style/pages/nav.css';
 
 
-function Nav(props) {
-    const {cartItems} = useContext(CartContenu)
+function Nav() {
+    const {cartItems , showHideCart} = useContext(CartContenu)
     return (
        <nav>
         <div className="nav_tazlmat">Store</div>
@@ -16,7 +16,7 @@ function Nav(props) {
         </div>
         <div className="nav_tayfast">
                <div className="icon">
-                   <i className="fa fa-shopping-cart" aria-hidden='true'/>
+                   <i className="fa fa-shopping-cart" aria-hidden='true' onClick={showHideCart}/>
                    {cartItems.length > 0 && (
                         <div className='item_count'>
                             <span>{cartItems.length}</span>

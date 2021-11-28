@@ -1,0 +1,40 @@
+.cart_wrapper{
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 10px;
+    z-index: 10px; 
+}
+.cart_contenu{
+    height: max-content;
+    max-height: 50vh;
+    overflow-y:auto ;
+}
+.cart_contenu h4{
+    color: rgb(250, 4, 4);
+    letter-spacing: 2px;
+}
+.cart_total{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    color: rgb(2, 64, 250);
+    font-weight: bolder;
+}
+.total{
+    color: rgb(21, 88, 1);
+    font-weight: bolder;
+}
+.fa-times-circle{
+    color:rgb(219, 6, 6);
+    transition: transform 0.3s linear;
+    bottom: 8px;
+}
+.fa-times-circle:hover{
+      transform: rotate(180deg);
+}

@@ -13,14 +13,16 @@ const products =[
     image:"https://i1.adis.ws/i/canon/eos-r5_martin_bissig_lifestyle_05_c629aad3c2154f34b3d7d7ba5a509196?$70-30-header-4by3-dt-jpg$",
     price:109.6,
     score:4.0,
+    qty:1,
     numberViews:15,
 },
 {
     id:"3",
     name: "Nikon Camera",
-    image:"https://cdn.thewirecutter.com/wp-content/media/2020/10/beginnerdslr2020-2048px-9793.jpg?auto=webp&quality=60&crop=1.91:1&width=1200",
+    image:"https://m.media-amazon.com/images/I/81XxIQuK3fL._AC_SL1500_.jpg",
     price:89.5,
     score:3,
+    qty:3,
     numberViews:8,
 },
 {
@@ -29,6 +31,7 @@ const products =[
     image:"https://www.sony.fr/image/5d5ecc984b1e4a3628bbce5f3404b10b?fmt=pjpeg&wid=660&hei=660&bgcolor=F1F5F9&bgc=F1F5F9",
     price:76,
     score:2.5,
+    qty:0,
     numberViews:6,
 },
 {
@@ -37,6 +40,7 @@ const products =[
     image:"https://pakistanwap.com/wp-content/uploads/2021/10/Infinix-Zero-X-Pro-Price-in-Pakistan.jpg",
     price:99.8,
     score:3,
+    qty:1,
     numberViews:9,
 },
 {
@@ -45,6 +49,7 @@ const products =[
     image:"https://www.backmarket.com/cdn-cgi/image/format=auto,quality=75,width=640/https://d28i4xct2kl5lp.cloudfront.net/product_images/product_images/1582625937.7558515-thumb.jpg",
     price:102.4,
     score:4.5,
+    qty:1,
     numberViews:20,
 },
 {
@@ -53,6 +58,7 @@ const products =[
     image:"https://cdn.dxomark.com/wp-content/uploads/medias/post-67563/mate-40-pro-plus-1024x768.jpg",
     price:89.6,
     score:4,
+    qty:1,
     numberViews:16,
 },
 {
@@ -61,6 +67,7 @@ const products =[
     image:"https://photos5.appleinsider.com/gallery/38167-72353-218-hero-xl.jpg",
     price:120.3,
     score:4.5,
+    qty:1,
     numberViews:22,
 },
 {
@@ -69,6 +76,7 @@ const products =[
     image:"https://5.imimg.com/data5/CB/QG/MY-3629868/az-05-wireless-stereo-headphones-500x500.jpg",
     price:40.3,
     score:3.5,
+    qty:1,
     numberViews:12,
 },
 {
@@ -77,6 +85,7 @@ const products =[
     image:"https://www.maxiapple.com/wp-content/uploads/2017/11/blackpods-apple-airpods-noir-2.jpg",
     price:30.3,
     score:4,
+    qty:1,
     numberViews:16,
 },
 {
@@ -85,6 +94,7 @@ const products =[
     image:"https://media.cdnws.com/_i/174709/m840-215/2927/17/lige-marque-hommes-montres-automatique-m-canique-montre-tourbillon-sport-horloge-en-cuir-d-contract-affaires.jpeg",
     price:87.99,
     score:3.5,
+    qty:1,
     numberViews:15,
 },
 {
@@ -93,6 +103,7 @@ const products =[
     image:"https://i.pinimg.com/originals/18/f5/84/18f5849bdb61cd71afe4f4064db378e0.jpg",
     price:123.3,
     score:5,
+    qty:1,
     numberViews:25,
 },
 ]

@@ -5,7 +5,7 @@ import CartItem from './CartItem';
 import '../style/components/cart.css'
 
 function Carts() {
-    const {showCart, cartItems , showHideCart} = useContext(CartContenu)
+    const {showCart, cartItems , showHideCart , removeCart} = useContext(CartContenu)
     return (
         <div>
              {showCart && (
@@ -30,6 +30,14 @@ function Carts() {
                          <span style={{marginLeft:5}} className='total'>
                          {cartItems.reduce((amount,item) => item.price + amount,0)} € 
                          </span>
+                         <span className='btns'>
+                         <span>
+                             <button className='clear_cart' onClick={removeCart}>Clear Cart</button>
+                        </span>
+                        <span>
+                             <button className='buy_item'>Buy Now</button>
+                        </span>
+                        </span>
                          </div>
                      </div>
                  </div>

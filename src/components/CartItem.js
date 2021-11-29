@@ -14,9 +14,12 @@ function CartItem({item}) {
                       </div>
                       <div className='item_price'>
                       {item.price} € 
+                      </div> 
+                      <div>
+                      <button className='add_item' >+</button>
+                      <button className='low_item' >-</button>
                       </div>
-                  
-                  <button className='cart_button' onClick={() => removeItem(item.id)}>Delete</button>
+                      <button className='cart_button' onClick={() => removeItem(item.id)}>Delete</button>
             </li>
         </div>
     );

@@ -28,7 +28,7 @@
      color: green;
  }
  .cart_button{
-    background-color: rgb(247, 122, 39);
+    background-color: rgb(245, 20, 20);
     padding: 2px;
     color: aliceblue;
     border: 0.5px;
@@ -38,7 +38,37 @@
     cursor: pointer;
 }
 .cart_button:hover{
-    background-color: rgb(247, 198, 134);
-    color: rgb(202, 57, 0);
+    background-color: rgb(241, 105, 105);
+    color: rgb(150, 0, 0);
     margin-left: 2px;
+}
+.add_item{
+    background-color: rgb(58, 244, 250);
+    padding: 2px 5px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    top: 70px;
+    right: -25px;
+}
+.add_item:hover{
+    background-color: cadetblue;
+}
+.low_item{
+    background-color: rgb(58, 244, 250);
+    padding: 2px 5px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    top: 70px;
+    right: 170px;
+}
+.low_item:hover{
+    background-color: cadetblue;
 }

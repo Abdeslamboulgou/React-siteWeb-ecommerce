@@ -6,8 +6,14 @@ import '../style/pages/nav.css';
 function Nav() {
     const {cartItems , showHideCart} = useContext(CartContenu)
     return (
-       <nav>
+       <nav className="nav_bar">
         <div className="nav_tazlmat">Store</div>
+        {/* <div className="home">Home</div>
+        <div className="about">About</div>
+        <div className="products">Products</div>
+        <div className="contact">Contact</div>
+        <div className="blog">Blog</div>
+        */}
         <div className="nav_amass">
             <div className="input_wrapper" >
                   <input placeholder="search..." type="text"></input>

@@ -8,16 +8,21 @@ nav{
 
 
 }
-/*.nav_tazlmat{
-    flex: 1;
-    font-size: 20px;
-    font-weight: bolder;
-    letter-spacing: 2px;
-    color: honeydew;
-    margin-left: 10px;
-}*/
 
 .nav_tazlmat{
+display: flex;
+justify-content: flex-start;
+column-gap: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    color: honeydew;
+    margin-left: 10px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+/*.nav_tazlmat{
     color:rgb(19, 105, 235);
     font-size: 22px;
     letter-spacing: -1px;
@@ -28,7 +33,7 @@ nav{
     animation-name: logo;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    text-shadow: 2px 2px 2px rgb(247, 235, 235) , 2px 6px 2px rgb(184, 247, 184) ,2px 8px 2px rgb(241, 241, 158); /*for text*/
+    text-shadow: 2px 2px 2px rgb(247, 235, 235) , 2px 6px 2px rgb(184, 247, 184) ,2px 8px 2px rgb(241, 241, 158); 
     flex-grow: 1;
 
 }
@@ -43,7 +48,7 @@ nav{
         position: relative;
         right: 8px;
     }
-}
+}*/
 .nav_amass{
     color: gray;
     flex: 1;
@@ -55,6 +60,9 @@ nav{
     padding: 8px;
     border-radius: 25px;
     background-color: white;
+    position: relative;
+    right: 150px;
+    transform: scaleY(1);
 }
 .input_wrapper input {
     border: none;
@@ -74,12 +82,17 @@ nav{
     display: flex;
     align-items: center ;
     justify-content: center;
+    position: relative;
+    right: 140px;
 }
 .icon i{
     cursor: pointer;
     color: honeydew;
-    width: 30px;
+    position: relative;
+    top: 6px;
+    
 }
+
 .item_count{
     background-color: rgb(252, 7, 7);
     color: rgb(238, 227, 227);
@@ -90,6 +103,6 @@ nav{
     width: 10px;
     height: 12px;
     position: absolute;
-    margin-top: -18px;
-    margin-right: -6px;
+    margin-top: -15px;
+    margin-right: -12px;
 }
